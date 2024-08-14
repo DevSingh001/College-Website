@@ -1,0 +1,101 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>University website design</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+     <section class="sub-header">
+          <nav>
+               <a href="index.html"><img src="logo.png"></a>
+               <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                         <li><a href="index.html">HOME</a></li>
+                         <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="course.html">COURSE</a></li>
+                         <li><a href="blog.html">BLOG</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+
+          </nav>
+          <h1>Our Courses</h1>
+     </section>
+     <!-- Course -->
+     <section class="course">
+          <h1>Courses We Offer</h1>
+          <p>Explore our wide range of academic programs designed to equip you with the skills and knowledge needed for success</p>
+          <div class="row">
+               <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Our Intermediate courses are perfect for students who are completing their secondary education and preparing for advanced studies. These courses cover essential subjects such as Mathematics, Science, Humanities, and Social Sciences. Designed to bridge the gap between high school and higher education, these programs focus on building strong foundational knowledge while encouraging critical thinking and independent learning.</p>
+               </div>
+               <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Our undergraduate degree programs offer a comprehensive education in a wide range of disciplines, including Engineering, Business, Arts, Sciences, and more. These programs are structured to provide a deep understanding of your chosen field, combined with opportunities for research, internships, and hands-on projects.</p>
+               </div>
+               <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Our postgraduate programs are designed for individuals looking to advance their expertise and specialize in their field of study. We offer Master's, MPhil, and PhD programs across various disciplines, including Technology, Management, Social Sciences, and more.</p>
+               </div>
+          </div>
+     </section>
+
+     <section class="facilities">
+          <h1>Our Facilities</h1>
+          <p>We provide state-of-the-art facilities to ensure that our students have the best environment for learning, recreation, and well-being.</p>
+          <div class="row">
+               <div class="facilities-col">
+                    <img src="library.png">
+                    <h3>World Class Library</h3>
+                    <p>Our state-of-the-art library is the heart of our academic community, offering an extensive collection of books, journals, and digital resources. Whether you’re conducting research, studying for exams, or exploring new areas of interest, our library provides a quiet and resourceful environment to meet your needs</p>
+               </div>
+               <div class="facilities-col">
+                    <img src="basketball.png">
+                    <h3>Largest Playgorund</h3>
+                    <p>Our campus boasts one of the largest playgrounds in the region, offering students ample space to engage in sports and recreational activities. The playground is equipped with facilities for a variety of sports, including football, basketball, tennis, and track and field.</p>
+               </div>
+               <div class="facilities-col">
+                    <img src="cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Our campus cafeterias are dedicated to providing nutritious and delicious meals to keep our students energized throughout the day. We offer a diverse menu that caters to various dietary preferences, including vegetarian, vegan, and gluten-free options.</p>
+               </div>
+          </div>
+     </section>
+
+     <!-- Footer -->
+     <section class="footer">
+          <h4>About Us</h4>
+          <p>Join us as we shape the future of education, fostering a vibrant and inclusive learning environment that <br>supports both personal and professional growth</p>
+          <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-linkedin"></i>
+               <p>Made With<i class="fa fa-heart"></i>By Dev Singh </p>
+          </div>
+     </section>
+
+     <!-- Javascript for toggle menu  -->
+     <script>
+          var navlinks = document.getElementById("navlinks");
+          function showMenu() {
+               navlinks.style.right = "0";
+          }
+          function hideMenu() {
+               navlinks.style.right = "-200px";
+          }
+     </script>
+</body>
+
+</html>

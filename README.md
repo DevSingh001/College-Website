@@ -1,1 +1,1 @@
-# College-Website
+# Collage-Website

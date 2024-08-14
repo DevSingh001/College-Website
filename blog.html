@@ -1,0 +1,129 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>University website design</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+     <section class="sub-header">
+          <nav>
+               <a href="index.html"><img src="logo.png"></a>
+               <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                         <li><a href="index.html">HOME</a></li>
+                         <li><a href="about.html">ABOUT</a></li>
+                         <li><a href="course.html">COURSE</a></li>
+                         <li><a href="blog.html">BLOG</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1>Our Certificate & Online Programs For 2022</h1>
+     </section>
+     <section class="blog-content">
+          <div class="row">
+               <div class="blog-left">
+                    <img src="certificate.jpg" alt="">
+                    <h2>Our Certificate & Online Programs For 2022</h2>
+                    <p>Our university offers a wide range of certificate and online programs designed to help students acquire new skills and knowledge that align with current industry demands. Whether you're looking to enhance your expertise in business analytics, data science, machine learning, or other cutting-edge fields, our courses provide the flexibility and support you need to succeed. Each program is developed in collaboration with industry experts to ensure that our graduates are prepared for the challenges and opportunities of today's job market.</p>
+                    <br>
+                    <p>In 2022, we have expanded our online offerings to include even more specializations, giving students the opportunity to study at their own pace, from anywhere in the world. Our programs are designed to be accessible to learners from all backgrounds, with a focus on practical, hands-on experience that translates directly into career success. Additionally, our dedicated faculty members are committed to providing personalized support and guidance throughout your learning journey.</p>
+                    <br>
+                    <p>Our certificate programs cover a broad range of topics, from foundational courses in computer science to advanced studies in machine learning and artificial intelligence. We also offer specialized programs in fields such as journalism, commerce, and AutoCAD, allowing students to tailor their education to their specific career goals. Whether you're a working professional looking to upskill, or a recent graduate seeking to enhance your qualifications, our programs are designed to meet your needs.</p>
+                    <br>
+                    <p>At our university, we believe in the power of education to transform lives and communities. That's why we're committed to offering high-quality online programs that are both affordable and accessible. By enrolling in our certificate and online programs, you'll be joining a global network of learners who are passionate about making a positive impact in their fields. We invite you to explore our offerings and take the next step in your educational journey with us.</p>
+
+
+
+                    <div class="comment-box">
+                         <h3>Leave a comment</h3>
+                         <form  class="form">
+                              <input type="text" placeholder="Enter Name">
+                              <input type="email" placeholder="Enter Email">
+                              <textarea rows="5" placeholder="Your Comment"></textarea>
+                              <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                         </form>
+                    </div>
+
+
+
+
+
+               </div>
+               <div class="blog-right">
+                    <h3>Post Catogries</h3>
+                    <div>
+                         <span>Business Analytics</span>
+                         <span>21</span>
+                    </div>
+               
+                    <div>
+                         <span>Data Science</span>
+                         <span>28</span>
+                    </div>
+               
+                    <div>
+                         <span>Machine Learning</span>
+                         <span>15</span>
+                    </div>
+               
+                    <div>
+                         <span>Computer Science</span>
+                         <span>35</span>
+                    </div>
+               
+                    <div>
+                         <span>AutoCAD</span>
+                         <span>42</span>
+                    </div>
+               
+                    <div>
+                         <span>Jurnalism</span>
+                         <span>22</span>
+                    </div>
+               
+                    <div>
+                         <span>Commerce</span>
+                         <span>30</span>
+                    </div>
+               </div>
+          </div>
+
+     </section>
+  
+     <!-- Footer -->
+     <section class="footer">
+          <h4>About Us</h4>
+          <p>Join us as we shape the future of education, fostering a vibrant and inclusive learning environment that <br>supports both personal and professional growth</p>
+          <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-linkedin"></i>
+               <p>Made With<i class="fa fa-heart"></i>By Dev Singh </p>
+          </div>
+     </section>
+
+     <!-- Javascript for toggle menu  -->
+     <script>
+          var navlinks = document.getElementById("navlinks");
+          function showMenu() {
+               navlinks.style.right = "0";
+          }
+          function hideMenu() {
+               navlinks.style.right = "-200px";
+          }
+     </script>
+</body>
+
+</html>
